@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Encuesta de satisfacción Ferretería Prat</title>
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+	<!--BOOTSTRAP-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!--ESTILOS GENERALES-->
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+<body>
+    <section class="encuesta-content container">
+        <a href="#" class="encuesta-content__logo">
+            <img src="images/logo.svg">
+        </a>
+        <h1>Encuesta <br>de satisfacción</h1>
+        <form action="#">
+            <div class="quest-content">
+                <div  class="quest-content__box">
+                    <div class="box-tit">
+                        <h3>1. En una escala del 1 al 10, ¿recomendarías la tienda Mimbral.cl?</h3>
+                    </div>
+                    <ul class="list-notas">
+                        <li>
+                            <input type="radio" id="nota1" name="notas">
+                            <label for="nota1"><span>1</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="nota2" name="notas">
+                            <label for="nota2"><span>2</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="nota3" name="notas">
+                            <label for="nota3"><span>3</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="nota4" name="notas">
+                            <label for="nota4"><span>4</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="nota5" name="notas">
+                            <label for="nota5"><span>5</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="nota6" name="notas">
+                            <label for="nota6"><span>6</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="nota7" name="notas">
+                            <label for="nota7"><span>7</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="nota8" name="notas">
+                            <label for="nota8"><span>8</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="nota9" name="notas">
+                            <label for="nota9"><span>9</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="nota10" name="notas">
+                            <label for="nota10"><span>10</span></label>
+                        </li>
+                    </ul>
+                </div>
+                <div  class="quest-content__box">
+                    <div class="box-tit">
+                        <h3>2. ¿Encontraste los productos que necesitabas?</h3>
+                        <div class="box-tit__check">
+                            <input type="radio" id="box2si" name="questbox2">
+                            <label for="box2si">Si</label>
+                        </div>
+                        <div class="box-tit__check">
+                            <input type="radio" id="box2no" name="questbox2">
+                            <label for="box2no">No</label>
+                        </div>
+                    </div>
+                    <textarea id="in-hide" placeholder="Comenta..." class="input-check2"></textarea>
+                </div>
+                <div  class="quest-content__box">
+                    <div class="box-tit">
+                        <h3>3. ¿Llegó tu producto a tiempo?</h3>
+                        <div class="box-tit__check">
+                            <input type="radio" id="box3si" name="questbox3">
+                            <label for="box3si">Si</label>
+                        </div>
+                        <div class="box-tit__check">
+                            <input type="radio" id="box3no" name="questbox3">
+                            <label for="box3no">No</label>
+                        </div>
+                    </div>
+                    <textarea id="in-hide" placeholder="Comenta..." class="input-check3"></textarea>
+                </div>
+                <div  class="quest-content__box">
+                    <div class="box-tit">
+                        <h3>4. ¿Cómo conociste Mimbral.cl?</h3>
+                        <div class="box-tit__input">
+                            <select id="select-option">
+                                <option>Elige una opción</option>
+                                <option>Motor de busqueda (Google)</option>
+                                <option>Red Social (Facebook, IG...)</option>
+                                <option>E-Mailing</option>
+                                <option>Amigo o colega</option>
+                                <option>Recomendación</option>
+                                <option value="otro">Otro...</option>
+                            </select>
+                        </div>
+                        <div class="box-tit__input">
+                            <input id="in-hide" type="text" placeholder="Otro..." class="input-select4">
+                        </div>
+                    </div>
+                </div>
+                <div  class="quest-content__box">
+                    <button class="btn-enviar">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
